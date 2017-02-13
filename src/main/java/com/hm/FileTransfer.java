@@ -1,20 +1,18 @@
 package com.hm;
-import org.apache.commons.net.ftp.FTPClient;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.OutputStream;
 
 import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 
-import java.io.InputStream;
-
-import javax.ws.rs.POST;
+import org.apache.commons.net.ftp.FTPClient;
 
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelSftp;
